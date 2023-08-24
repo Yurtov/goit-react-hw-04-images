@@ -7,6 +7,12 @@ export const Layout = styled.main`
   padding-bottom: 24px;
 `;
 
-export const SpinerMargin = styled.div`
-  margin: 0 auto;
+export const Preloader = styled.div`
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #d3d6e6;
+  opacity: 70%;
 `;
